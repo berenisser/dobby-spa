@@ -15,28 +15,49 @@
 	background-color: $nav_background;
 	border-radius: 0;
 	margin: 0;
+	border: $nada;
 	.navbar-nav{
 		li{
 			a{
 				color: #fff;
 			}
 			a:hover{
-				color: $letra_rosada;
+				color: $rosado_resalte;
 			}
 			a.dropdown-toggle{
-				background-color: transparent;
+				background-color: $transparente;
 			}
 			.dropdown-menu{
 				background-color: $nav_background;
 				a{
 					color: #fff;
-					background-color: transparent;
+					background-color: $transparente;
 				}
 				a:hover{
-					color: $letra_rosada;
+					color: $rosado_resalte;
 				}
 			}
 		}
 	}
 }
 
+.seccion-circulos{
+	position: absolute;
+	top: 390px;
+	left: 70px;
+
+	.circulos-borde{
+		border-radius: 50%;
+		border: 10px solid $rosado_resalte;
+	}
+}
+
+
+
+@media (max-width: 768px){
+	.seccion-circulos{
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}

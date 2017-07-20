@@ -11,11 +11,12 @@
 .navbar.navbar-default {
   background-color: #2F1F1F;
   border-radius: 0;
-  margin: 0; }
+  margin: 0;
+  border: none; }
   .navbar.navbar-default .navbar-nav li a {
     color: #fff; }
   .navbar.navbar-default .navbar-nav li a:hover {
-    color: #F9DEA7; }
+    color: #DABD83; }
   .navbar.navbar-default .navbar-nav li a.dropdown-toggle {
     background-color: transparent; }
   .navbar.navbar-default .navbar-nav li .dropdown-menu {
@@ -24,6 +25,20 @@
       color: #fff;
       background-color: transparent; }
     .navbar.navbar-default .navbar-nav li .dropdown-menu a:hover {
-      color: #F9DEA7; }
+      color: #DABD83; }
+
+.seccion-circulos {
+  position: absolute;
+  top: 390px;
+  left: 70px; }
+  .seccion-circulos .circulos-borde {
+    border-radius: 50%;
+    border: 10px solid #DABD83; }
+
+@media (max-width: 768px) {
+  .seccion-circulos {
+    position: relative;
+    top: 0;
+    left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
