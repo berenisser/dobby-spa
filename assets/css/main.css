@@ -27,18 +27,32 @@
     .navbar.navbar-default .navbar-nav li .dropdown-menu a:hover {
       color: #DABD83; }
 
-.seccion-circulos {
-  position: absolute;
-  top: 390px;
-  left: 70px; }
-  .seccion-circulos .circulos-borde {
-    border-radius: 50%;
-    border: 10px solid #DABD83; }
+.seccion-rosada {
+  background-color: #E9E0B7; }
+  .seccion-rosada .seccion-circulos {
+    position: relative;
+    top: -50px; }
+    .seccion-rosada .seccion-circulos .circulos-borde {
+      border-radius: 50%;
+      border: 10px solid #DABD83; }
+
+.welcome {
+  background-color: #F4F4F4;
+  padding: 5% 0;
+  border-bottom: 2px solid #DABD83; }
+  .welcome img {
+    border-radius: 8px; }
+
+.about {
+  background-color: #4A3A3A;
+  color: #DABD83;
+  border-bottom: 2px solid #DABD83;
+  padding: 5% 0; }
+  .about img {
+    margin: 0 25px 25px 25px; }
 
 @media (max-width: 768px) {
   .seccion-circulos {
-    position: relative;
-    top: 0;
-    left: 0; } }
+    padding-top: 60px; } }
 
 /*# sourceMappingURL=main.css.map */

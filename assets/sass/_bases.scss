@@ -41,23 +41,39 @@
 	}
 }
 
-.seccion-circulos{
-	position: absolute;
-	top: 390px;
-	left: 70px;
-
-	.circulos-borde{
-		border-radius: 50%;
-		border: 10px solid $rosado_resalte;
+.seccion-rosada{
+	background-color: $rosado_background;
+	.seccion-circulos{
+		position: relative;
+		top: -50px;
+		.circulos-borde{
+			border-radius: 50%;
+			border: 10px solid $rosado_resalte;
+		}
 	}
 }
 
+.welcome{
+	background-color: #F4F4F4;
+	@include paddingSeccion();
+	border-bottom: 2px solid $rosado_resalte;
+	img{
+		border-radius: 8px;
+	}
+}
 
+.about{
+	background-color: $about_background;
+	color: $rosado_resalte;
+	border-bottom: 2px solid $rosado_resalte;
+	@include paddingSeccion();
+	img{
+		margin: 0 25px 25px 25px;
+	}
+}
 
 @media (max-width: 768px){
 	.seccion-circulos{
-		position: relative;
-		top: 0;
-		left: 0;
+		padding-top: 60px;
 	}
 }
