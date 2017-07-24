@@ -5,5 +5,9 @@
 @mixin redesSociales(){
 	background-color: #BFB68D;
 	border-radius: 50%;
-	border: 5px solid $rosado_resalte;
+	border: 5px solid #D3693F;
+}
+
+@mixin tipografiaLinda(){
+	font-family: 'Berkshire Swash', cursive;
 }

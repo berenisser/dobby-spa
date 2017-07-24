@@ -46,6 +46,11 @@
 	.seccion-circulos{
 		position: relative;
 		top: -50px;
+		h5{
+			@include tipografiaLinda();
+			font-size: 2em;
+			margin-top: 5%;
+		}
 		.circulos-borde{
 			border-radius: 50%;
 			border: 10px solid $rosado_resalte;
@@ -56,6 +61,11 @@
 .welcome{
 	background-color: #F4F4F4;
 	@include paddingSeccion();
+	h3{
+		@include tipografiaLinda();
+		font-size: 2.5em;
+		margin-bottom: 4%;
+	}
 	border-bottom: 2px solid $rosado_resalte;
 	img{
 		border-radius: 8px;
@@ -67,6 +77,17 @@
 	color: $rosado_resalte;
 	border-bottom: 2px solid $rosado_resalte;
 	@include paddingSeccion();
+
+	hr {
+		border-top: 3px double $rosado_resalte;
+		width: 250px;
+	}
+
+	h3{
+		@include tipografiaLinda();
+		font-size: 2em;
+		margin-bottom: 5%;
+	}
 	img{
 		margin: 0 25px 25px 25px;
 	}
@@ -76,19 +97,51 @@ footer{
 	background-color: $color_footer;
 	color: $rosado_resalte;
 	padding: 3% 0;
+	h4{
+		@include tipografiaLinda();
+		font-size: 1.7em;
+	}
 	.col-red-social{
 		padding-left: 0;
+		padding-bottom: 30px;
 	}
 	img{
 		@include redesSociales();
+		cursor: pointer;
 	}
 	h4{
 		margin-bottom: 20px;
+	}
+	span{
+		color: #D3693F;
+	}
+	i{
+		color: #D3693F;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		position: relative;
+		top: 10px;
+	}
+	hr{
+		width: 100%;
+		border-top: 1px solid $rosado_resalte;
 	}
 }
 
 @media (max-width: 768px){
 	.seccion-circulos{
 		padding-top: 60px;
+	}
+	.about{
+		h3{
+			text-align: center;
+		}
+		hr{
+			margin: 0 auto;
+			padding-bottom: 20px;
+		}
+		p{
+			text-align: justify;
+		}
 	}
 }
