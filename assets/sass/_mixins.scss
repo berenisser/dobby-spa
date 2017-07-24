@@ -1,3 +1,9 @@
 @mixin paddingSeccion(){
 	padding: 5% 0;
 }
+
+@mixin redesSociales(){
+	background-color: #BFB68D;
+	border-radius: 50%;
+	border: 5px solid $rosado_resalte;
+}

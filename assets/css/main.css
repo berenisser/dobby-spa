@@ -51,6 +51,19 @@
   .about img {
     margin: 0 25px 25px 25px; }
 
+footer {
+  background-color: #2F1F1F;
+  color: #DABD83;
+  padding: 3% 0; }
+  footer .col-red-social {
+    padding-left: 0; }
+  footer img {
+    background-color: #BFB68D;
+    border-radius: 50%;
+    border: 5px solid #DABD83; }
+  footer h4 {
+    margin-bottom: 20px; }
+
 @media (max-width: 768px) {
   .seccion-circulos {
     padding-top: 60px; } }

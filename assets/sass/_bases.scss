@@ -72,6 +72,21 @@
 	}
 }
 
+footer{
+	background-color: $color_footer;
+	color: $rosado_resalte;
+	padding: 3% 0;
+	.col-red-social{
+		padding-left: 0;
+	}
+	img{
+		@include redesSociales();
+	}
+	h4{
+		margin-bottom: 20px;
+	}
+}
+
 @media (max-width: 768px){
 	.seccion-circulos{
 		padding-top: 60px;
