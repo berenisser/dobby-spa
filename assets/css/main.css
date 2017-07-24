@@ -29,6 +29,8 @@
 
 .seccion-rosada {
   background-color: #E9E0B7; }
+  .seccion-rosada h2 {
+    font-family: 'Berkshire Swash', cursive; }
   .seccion-rosada .seccion-circulos {
     position: relative;
     top: -50px; }
@@ -36,9 +38,21 @@
       font-family: 'Berkshire Swash', cursive;
       font-size: 2em;
       margin-top: 5%; }
+    .seccion-rosada .seccion-circulos p {
+      margin-bottom: 30px; }
+    .seccion-rosada .seccion-circulos a {
+      background-color: #DABD83;
+      color: #2F1F1F;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none; }
+    .seccion-rosada .seccion-circulos a:hover {
+      background-color: #D3693F; }
     .seccion-rosada .seccion-circulos .circulos-borde {
       border-radius: 50%;
       border: 10px solid #DABD83; }
+    .seccion-rosada .seccion-circulos .circulos-borde:hover {
+      border: 10px solid #D3693F; }
 
 .welcome {
   background-color: #F4F4F4;
@@ -48,6 +62,11 @@
     font-family: 'Berkshire Swash', cursive;
     font-size: 2.5em;
     margin-bottom: 4%; }
+  .welcome .parag {
+    padding-bottom: 20px; }
+  .welcome i {
+    color: #D3693F;
+    padding-right: 7px; }
   .welcome img {
     border-radius: 8px; }
 

@@ -43,6 +43,9 @@
 
 .seccion-rosada{
 	background-color: $rosado_background;
+	h2{
+		@include tipografiaLinda();
+	}
 	.seccion-circulos{
 		position: relative;
 		top: -50px;
@@ -51,9 +54,25 @@
 			font-size: 2em;
 			margin-top: 5%;
 		}
+		p{
+			margin-bottom: 30px;
+		}
+		a{
+			background-color: $rosado_resalte;
+			color: $color_footer;
+			padding: 10px 20px;
+			border-radius: 20px;
+			text-decoration: none;
+		}
+		a:hover{
+			background-color: #D3693F;
+		}
 		.circulos-borde{
 			border-radius: 50%;
 			border: 10px solid $rosado_resalte;
+		}
+		.circulos-borde:hover{
+			border: 10px solid #D3693F;
 		}
 	}
 }
@@ -66,6 +85,14 @@
 		font-size: 2.5em;
 		margin-bottom: 4%;
 	}
+	.parag{
+		padding-bottom: 20px;
+	}
+	i{
+		color: #D3693F;
+		padding-right: 7px;
+	}
+
 	border-bottom: 2px solid $rosado_resalte;
 	img{
 		border-radius: 8px;
